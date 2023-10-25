@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./assets/fonts/Proxima Nova Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Proxima Nova Regular";
+  src: url("./assets/fonts/ProximaNova-Regular.otf") format("opentype");
+}
+
+h2 {
+  font-family: "Proxima Nova", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #262C40;
+  ;
+}
+
+.text-14 {
+  font-family: "Proxima Nova Regular", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #8189A3;
+}
+
+.text-16-18 {
+  font-family: "Proxima Nova Regular", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color:  #8189A3;
+}
+
+.text-18-24 {
+  font-family: "Proxima Nova Regular", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #262C40;
+
+}
+
+.text-16-24 {
+  font-family: "Proxima Nova Regular", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #8189A3;
+  ;
+}
+
+
+
+.modal-shadow {
+  box-shadow: 0px 0px 20px 0px #0000001A;
+}
+
+.modal-columns {
+  box-sizing: border-box;
+  display: grid;
+  grid-row-gap: 14px;
+  grid-template-columns: 177px 1fr;
+}

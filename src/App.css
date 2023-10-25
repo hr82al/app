@@ -1,0 +1,18 @@
+.main-container {
+  padding-top: 64px;
+  margin-left: 80px;
+  width: 1121px;
+}
+
+.search-bar {
+  width: 1120px;
+  height: 48px; 
+  border: 1px solid #D4DEFE;
+  border-radius: 9999px;
+}
+
+.search-input {
+  width: 1050px;
+}
+
+
